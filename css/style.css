@@ -1,0 +1,439 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/Untitled-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+p, a{
+    font-family: 'Montserrat', sans-serif;
+}
+.green{
+    color:#789553;
+}
+.margin-left{
+    margin-left: 8px;
+}
+/* header*/
+
+#headerweb h1{
+    font-family: 'DFVN Konde';
+}
+header ul li{
+    display: inline;
+    padding: 20px 20px;
+}
+header a{
+    text-decoration: none;
+    color:#222814;
+}
+header a:hover{
+    opacity: 0.2;
+    transition:1s;
+    text-decoration: none;
+}
+.button{
+    background-color: #789553;
+    border-radius: 10px;
+    padding: 12px 30px;
+    color:#FDF4E1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+/* header */
+/* banner */
+#bannerweb{
+    margin-top: 80px;
+    width: 1200px;
+    height: 500px;
+    background-color: #789553;
+    border-radius: 10px;
+    position:relative;
+}
+#bannerweb h1, h2, h3, h4, h5{
+    font-family: 'DFVN Konde';
+    font-weight: 700;
+}
+#bannerweb h3{
+    color:#222814;
+}
+#bannerweb h1{
+    font-size: 50px;
+    color: #FDF4E1;
+}
+.intro p{
+    color:#222814;}
+/* find me on */
+#bannerweb i{
+    font-size: 20px;
+    color:#FDF4E1;
+    background-color: #222814;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* /find me on */
+.button-1{
+    background-color: #222814;
+    border-radius: 10px;
+    padding: 12px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#bannerweb a{
+    text-decoration: none;
+    color:#FDF4E1;
+    margin-top: 30px;
+}
+#bannerweb a:hover{
+    opacity: 0.2;
+    transition:1s;
+    text-decoration: none;
+}
+#bannerweb img{
+    position:absolute;
+    bottom: -250px;
+    right: -15px;
+}
+/* /banner */
+/* About */
+#About h1, h2, h3, h4, h5, h6{
+    font-family: 'DFVN Konde';
+    font-weight: 700;
+    color:#222814;
+}
+#About{
+    height: 500px;
+    width: 100%;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #789553;
+    border-radius: 15px;
+    color:#FDF4E1;
+  }
+  
+  /* Create an active/current tablink class */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+  }
+  .tabcontent img:hover{
+    transition: 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+/* /About */
+/* Service */
+#Service h1, h2, h3, h4, h5, h6{
+    font-family: 'DFVN Konde';
+    font-weight: 700;
+    color:#FDF4E1;
+}
+#Service h1{
+    margin: 50px 0;
+}
+#Service{
+    color:#222814;
+    height: 500px;
+    background-color: #222814;
+}
+#Service i{
+    font-size: 25px;
+    color:#222814;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px dashed #222814; 
+}
+.box{
+    background-color: #789553;
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.box h4{
+    margin: 20px 0;
+    color:#222814;
+}
+.box p{
+    font-size: 12px;
+}
+/* /Service */
+/* Portfolio */
+#Portfolio h1, h2, h3, h4, h5, h6{
+    font-family: 'DFVN Konde';
+    font-weight: 700;
+}
+#Portfolio{
+    margin: 30px 0;
+    height: 600px;
+}
+#Portfolio img{
+    padding: 10px;
+}
+#All{
+    width:90%;
+}
+#All p{
+    color:#FDF4E1;
+    font-size: 10px;
+}
+#All h1, h2, h3, h4, h5, h6{color:#FDF4E1;}
+#Portfolio a{
+    background-color: #789553;
+}
+.image{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.box-1{
+    width: 300px;
+    height: 400px;
+    text-align: left;
+    padding: 10px;
+    background-color: #222814;
+    border-radius: 0.5rem;
+    margin:0 auto;
+}
+.box-1 img{
+    Width: 100%;
+    position:relative;
+    border-radius: 15px;
+}
+.overlay{
+    width: 280px;
+    height: 200px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(34, 40, 20, 0.697) 100%); 
+    z-index: 10000;
+    position:absolute;
+}
+.box-1:hover{
+    transition: 1s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#All a:hover{opacity: 0.2;
+    transition:1s;}
+/* /Portfolio */
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    margin: 20px 0;
+}
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #789553;
+    border-radius: 15px;
+    color:#FDF4E1;
+  }
+  
+  /* Create an active/current tablink class */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+  }
+.tabcontent img:hover{
+    border-radius: 15px;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+  /* /Portfolio */
+  /* experience */
+#experience{
+    background-color: #789553;
+}
+#experience i{
+    color:#222814;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#experience h3{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    color:#222814;
+}
+/* /experience */
+/* client */
+#client h1,h2,h3,h4,h5,h6{
+    font-family: 'DFVN Konde';
+    font-weight: 700;
+}
+#client img{
+    border-radius: 50%;
+}
+.box-cl span{
+    margin-left: 20px;
+}
+.box-cl p{
+    margin: 10px 0;
+    line-height: 20px;
+    color:#222814;
+}
+.box-cl{
+    background-image: url('../img/banner02.png');
+    background-size: cover;
+    box-shadow: #6a844b6d 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+}
+.box-cl:hover{
+    transition:1s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.xyz{
+    margin:0 30px;
+}
+
+/* /client */
+  /* Getintouch */
+#Get{
+    height: 500px;
+}
+
+.getin{
+    background-color: #789553;
+    width: 50%;
+    height: 200px;
+    border-radius: 15px;
+    padding: 35px 20px;
+    box-shadow: rgba(0, 0, 0, 0.204) 0px -50px 36px -28px inset;
+}
+.getin p{
+    font-size: 14px;
+    color:#222814;
+}
+#Get h1,h2,h3,h4,h5,h6{
+    font-family: 'DFVN Konde';
+    font-weight: 700;
+}
+#Get h5{
+    font-weight: 700;
+    color: #222814;
+}
+.button-2{
+    background-color: #FDF4E1;
+    border-radius: 10px;
+    padding: 12px 30px;
+    color:#222814;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin: 100px 0;
+}
+.button-2:hover{
+    background-color: #222814;
+    border-radius: 10px;
+    padding: 12px 30px;
+    color:#FDF4E1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-top: 20px;
+    transition:1s;
+}
+#Get ul{
+    list-style-type: none;
+}
+#Get ul li{
+    margin: 0 24px;
+    justify-content: space-between;
+    display: inline;
+}
+#Get a{
+    text-decoration: none;
+    margin-top: 30px;
+}
+#Get i{
+    font-size: 20px;
+    color:#FDF4E1;
+    background-color: #222814;
+    border-radius: 10%;
+    padding: 10px;
+}
+#Get i:hover{
+    background-color: #FDF4E1;
+    color:#222814;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition:1s;
+}
+  /* /Getintouch */
+  /* footet */
+footer h1,h2,h3,h4,h5,h6{
+    font-family: 'DFVN Konde';
+    font-weight: 700;
+    color:#789553;
+}
+#footer{
+    background-color: #222814;
+    height: 500px;
+    color:#fdf4e150;
+    margin-top: 50px;
+}
+#footer p{
+    font-size: 14px;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer ul li {font-size: 14px;}
+#footer a{
+    text-decoration: none;
+    color:#fdf4e150;
+}
+#footer a:hover{
+    opacity: 0.2;
+    transition:1s;
+    text-decoration: none;
+}
+.line{
+    width:100%;
+    height: 0.5px;
+    margin-top:40px;
+    margin-bottom: 10px;
+    background-color: #7895534c;
+}
+.lasted{
+    width:100%;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.lasted i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.lasted a:hover{
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition:1s;
+}
+.box-c{
+    width: 80%;
+    margin-bottom: 30px;
+}
